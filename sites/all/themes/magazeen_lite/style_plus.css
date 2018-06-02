@@ -6,10 +6,24 @@
  background:#fff;
  padding: 14px 0 15px 0;
  float:left;
+  width:100%;
 }
 
 #logo a, #logo div {
  float:left;
+}
+
+a:link, a:active, .node-readmore a:hover, .node-readmore a:link {
+  color:#ff6700;
+  font-family:arial;
+}
+
+#navigation ul li a:link, #navigation ul li a:active, #navigation ul li a:visited {
+  font-size:1.3em;
+}
+
+#navigation ul.links {
+  width:980px;
 }
 
 #searchform-header {
@@ -60,6 +74,10 @@ h2.node-title {
   width:100%;
 }
 
+h2, h2.node-title {
+    font-size:1.9em;
+}
+
 .node-info {
   padding: 5px 5px;
   border-bottom:none;
@@ -68,7 +86,7 @@ h2.node-title {
 
 #site-name {
   display: block;
-  margin: 33px 0 0 15px;
+  margin: 47px 0 0 15px;
 }
 
 #site-name a {
@@ -80,7 +98,49 @@ h2.node-title {
   display: block;
   float: none;
   clear: both;
-  margin: 65px 0 0 15px;
+  margin: 75px 0 0 15px;
   font-size: 1.8em;
   color: #777;
+}
+
+.main {
+  width: 690px;
+}
+
+.view-law .views-row, .view-hasznos-linkek .views-row, .view-hasznos-linkek-page .views-row {
+ 
+    margin-bottom:12px;
+  }
+
+
+.view-law, .view-hasznos-linkek-page {
+  padding:22px;
+  background:#fff;
+}
+
+.view-hasznos-linkek .view-footer,
+#back-to-top0 {
+  float:right;
+}
+
+.page-node h1.node-title {
+  width:auto;
+  font-size:2.1em;
+}
+
+
+a:visited {
+  color:#000;
+}
+
+input#edit-search-block-form--2 {
+  padding: 6px 10px 5px 6px;
+}
+
+.view-gallery .views-field-title {
+  width:290px;
+}
+
+.error {
+  display:none;
 }

@@ -69,36 +69,36 @@ h1 {
 		height:auto;
 		border-bottom:4px solid #30393d;
 	}
-	
+
 	.page-node h1.node-title { width:400px; }
 
 	.node-content h1 {
 		margin:10px 0; padding:10px 0;
 	}
-	
+
 	h2.node-title {
 		margin:0; padding:10px 0;
 		width:400px; height:auto;
 		border-bottom:4px solid #30393d;
 		font:bold 2.40em Arial, Helvetica, sans-serif;
 	}
-	
+
 	h1.node-title a:link, h1.node-title a:active,h1.node-title a:visited,
 	h2.node-title a:link, h2.node-title a:active,h2.node-title a:visited {
 		color:#30393d;
 	}
-	
+
 	h1.node-title a:hover,
 	h2.node-title a:hover {
 		color:#54798b;
 	}
-	
+
 	h1 a:link, h1 a:active, h1 a:visited {
 		color:#fefefe;
 		outline:0;
 		cursor:pointer;
 	}
-			
+
 	h1 a:hover {
 		color:#d7d7d7;
 	}
@@ -109,7 +109,7 @@ h2 {
 }
 
 	.node-content h2, .box h2, .theme-info h2 { margin:10px 0; padding:0; color:#53798b; }
-	
+
 	#footer h2 { color:#fefefe; }
 
 h3 {
@@ -214,7 +214,7 @@ a.rss:link, a.rss:active, a.rss:visited, a.rss:hover {
 .node-info span a:link, .node-info span a:active, .node-info span a:visited { color:#1e1c1a; text-decoration:none; }
 
 .node-info span a:hover { color:#f23183; }
-	
+
 .node-readmore { float:right; }
 
 .node-readmore a:link, .node-readmore a:active, .node-readmore a:visited,
@@ -230,8 +230,8 @@ a.rss:link, a.rss:active, a.rss:visited, a.rss:hover {
 .navigation a:link, .navigation a:visited, .navigation a:active { font:bold 0.92em Georgia, "Times New Roman", Times, serif; color:#656c71; }
 
 .navigation a:hover { color:#35383a; }
-	
-	
+
+
 /* Sidebar
 /* -------------- */
 
@@ -241,7 +241,7 @@ a.rss:link, a.rss:active, a.rss:visited, a.rss:hover {
 
 /* Footer
 /* -------------- */
-	
+
 #footer{ font:0.92em Arial, Helvetica, sans-serif; color:#b2b2b2; line-height:17px; }
 
 p.copyright { margin:10px 0 0 0; font:0.92em Arial, Helvetica, sans-serif; color:#404040; }
@@ -280,7 +280,7 @@ html[xmlns] .clearfix { display: block; }
 
 #header {
 	margin:0; padding:0;
-	width:auto; 
+	width:auto;
 	background:#171615 url(images/header.gif) repeat-x top center;
 	border-bottom:1px solid #4a4d4c;
 	clear:both;
@@ -328,7 +328,7 @@ img#logo-image {padding:0 10px 0 0;}
 #navigation {
 	margin:0; padding:0;
 	background:#FFF url(images/navigation.gif) repeat-x bottom center;
-	border-top:2px solid #393b3b; border-bottom:1px solid #FFF; 
+	border-top:2px solid #393b3b; border-bottom:1px solid #FFF;
 }
 
 #navigation ul.links {
@@ -344,7 +344,7 @@ img#logo-image {padding:0 10px 0 0;}
 
 /* 04 - SLIDESHOW
 /* ----------------------------------------------*/
-	
+
 #slideshow { margin:0; padding:0; background:#f4f6f8 url(images/dock.gif) repeat-x bottom center; border-bottom:1px solid #fbf9fa; }
 
 .slideshow  { background:transparent url("images/slide-shadow.png") no-repeat scroll center bottom; padding:10px 0 50px 0; }
@@ -416,7 +416,7 @@ background:url("images/slideshow/arrow-right.png") no-repeat scroll left top tra
 	border-bottom:10px solid #d0dce2;
 }
 
-ul.pager { 
+ul.pager {
 background-color:#DCE8EE;
 border-color:#EBF2F5 #EBF2F5 #D4E0E6;
 border-style:solid;
@@ -432,7 +432,7 @@ padding:8px 10px;
 
 /* Node
 /* --------------- */
-	
+
 .node-box {
 	margin:0; padding:0;
 	background:#fdfefe url(images/node-box-top.gif) repeat-x top center;
@@ -451,7 +451,7 @@ padding:8px 10px;
 		border-bottom:1px solid #FFF;
 		position:relative;
 	}
-		
+
 	.node-info {
 		margin:0; padding:10px 5px;
 		width:190px; height:auto;
@@ -465,9 +465,9 @@ padding:8px 10px;
 		border-bottom:1px solid #e8ebec;
 		position:relative;
 	}
-	
+
 		.page-content { padding:15px 22px 0; }
-		
+
 		.comment-count {
 			margin:0; padding:0;
 			width:auto; height:auto;
@@ -475,14 +475,14 @@ padding:8px 10px;
 			position:absolute; display:block;
 			top:-10px; left:-10px;
 		}
-		
+
 			.page-content .comment-count {
 				margin-top:-15px;
 			}
-				
+
 /* Node Footer
-/* --------------- */		
-		
+/* --------------- */
+
 .node-footer { margin:0; padding:23px; background:#FCFDFE; border-top:1px solid #ffffff; position:relative; z-index:100; }
 
 .terms a {
@@ -492,10 +492,10 @@ padding:8px 10px;
 }
 
 
-	
+
 /* Content Navigation
-/* --------------- */	
-						
+/* --------------- */
+
 .navigation {
 	margin:0; padding:8px 10px;
 	background:#dce8ee url(images/box-highlight.gif) repeat-x bottom center;
@@ -562,8 +562,8 @@ display:block;
 
 #link-back { margin:0; padding:15px 0; background:#0c0b0b; }
 
-a.smashing:link, a.smashing:active, a.smashing:visited, a.smashing:hover, a.function:link, 
-a.function:active, a.function:visited, a.function:hover, a.drupalizing:link, a.drupalizing:active, 
+a.smashing:link, a.smashing:active, a.smashing:visited, a.smashing:hover, a.function:link,
+a.function:active, a.function:visited, a.function:hover, a.drupalizing:link, a.drupalizing:active,
 a.drupalizing:visited, a.drupalizing:hover {
 	background:url("images/footer-logo-smashing.png") no-repeat scroll center top transparent;
 	display:block;
@@ -656,3 +656,39 @@ padding:20px 40px ;
 .comment-delete, .comment-edit, .comment-reply{ margin:0; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; }
 
 .comment_forbidden { font:bold italic 1.17em Georgia, "Times New Roman", Times, serif; }
+
+
+
+/* custom code; added for menu*/
+#navigation .expanded>ul.links{
+	position: absolute;
+    background: #E1E6EA;
+    width: auto;
+    border: 1px solid #C6DEE7;
+    border-top: none;
+    margin-top: -1px;
+    display:none;
+}
+#navigation .expanded:hover>ul,
+#navigation .expanded>ul:hover,
+#navigation .expanded:focus>ul,
+#navigation .expanded:active>ul{
+	display:block;
+	z-index: 99;
+}
+
+#navigation ul li.expanded {
+    margin-left: 20px;
+	list-style: none;
+}
+
+#navigation ul li.expanded ul li {
+    float: none;
+	margin: 0;
+}
+
+#navigation ul.links li.active.expanded ul li a:link, #navigation ul.links li.active.expanded ul li a:active, #navigation ul.links li.active.expanded ul li a:visited {
+	color: #5e6568;
+	background: #E1E6EA;
+	margin: 0;
+}

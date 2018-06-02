@@ -27,8 +27,17 @@ function magazeenlite_form_alter(&$form, &$form_state, $form_id) {
   if ($form_id == 'search_block_form') {
     $form['search_block_form']['#title'] = '';
     $form['search_block_form']['#default_value'] = 'Search.';
-    $form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Search.';}";
-    $form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Search.') {this.value = '';}";
+    $form['search_block_form']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'KeresésS';}";
+    $form['search_block_form']['#attributes']['onfocus'] = "if (this.value == 'Keresés') {this.value = '';}";
     $form['actions']['submit']['#value'] = t('Search');
-  }    
+  }
+}
+
+
+function magazeenlite_links__system_main_menu($variables) {
+  $output = '';
+  foreach ($variables['links'] as $link) {
+    $output .= l($link['title'], $link['href'], $link);
+  }
+  return $output;
 }
